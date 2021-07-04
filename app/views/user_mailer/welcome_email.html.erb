@@ -1,0 +1,9 @@
+<h1>Welcome to 'Stay in Touch', <%= @user.name %></h1>
+<p>
+  You have successfully signed up to <%= link_to 'https://fast-wildwood-38105.herokuapp.com', root_url %>,
+  your username is: <%= @user.name %>.<br>
+</p>
+<p>
+  To login to the site, just follow this link: <%= link_to new_user_session_url, new_user_session_url %>.
+</p>
+<p>Thanks for joining and have a great day!</p>
